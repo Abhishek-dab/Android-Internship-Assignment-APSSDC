@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registeration Page"
+        android:textSize="30sp"
+        android:textColor="#009688"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernamei"
+        android:hint="User Name"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordi"
+        android:hint="Password"
+        android:layout_marginTop="0dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailid"
+        android:hint="Mail ID"
+        android:layout_marginTop="0dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberi"
+        android:hint="Phone Number"
+        android:layout_marginTop="0dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="done"
+        android:background="#673AB7"
+        android:textColor="#EEF1EA"
+        android:text="REGISTER" />
+
+
+
+</LinearLayout>
