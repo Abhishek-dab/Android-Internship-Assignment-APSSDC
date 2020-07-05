@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:onClick="sending"/>
+    <!-- android:icon="@mipmap/share"
+     app:showAsAction="always"-->
+
+    <item
+        android:id="@+id/dial"
+        android:title="Dial"
+        android:onClick="calling"/>
+    <!-- android:icon="@drawable/ic_baseline_call_24"
+     app:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/Gallery"
+        android:onClick="galleryopen"
+        android:title="Gallery"/>
+
+</menu>

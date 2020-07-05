@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Coupons"
+    android:id="@+id/coupons"/>
+    <item
+        android:title="Cashback"
+        android:id="@+id/cashback"/>
+    <item
+        android:title="Deals"
+        android:id="@+id/deals"/>
+</menu>
